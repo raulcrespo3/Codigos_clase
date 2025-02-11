@@ -28,8 +28,8 @@ string name;
 double balance; 
 
 //methodes
-bool deposit(double bal){balance += bal; cout << "In deposit"<< endl;}  
-bool withdraw(double bal){balance -= bal; cout << "In withdraw"<< endl;}
+void deposit(double bal){balance += bal; cout << "In deposit"<< endl;}  
+void withdraw(double bal){balance -= bal; cout << "In withdraw"<< endl;}
 
 }; 
 
